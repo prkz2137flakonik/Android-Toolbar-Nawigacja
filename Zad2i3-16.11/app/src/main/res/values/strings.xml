@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Zapisy na kurs</string>
+    <string name="header">Zapisy na kurs</string>
+    <string name="label_name">Imie i nazwisko</string>
+    <string name="label_email">Adres e-mail</string>
+    <string name="label_birth_date">Data urodzenia</string>
+    <string name="label_course">Kurs</string>
+    <string name="label_mode">Tryb zajec</string>
+    <string name="label_level">Poziom zaawansowania</string>
+    <string name="hint_name">Jan Kowalski</string>
+    <string name="hint_email">jan@przyklad.pl</string>
+    <string name="btn_pick_date">Wybierz date</string>
+    <string name="mode_onsite">Stacjonarny</string>
+    <string name="mode_remote">Zdalny</string>
+    <string name="newsletter">Chce dostawac newsletter</string>
+    <string name="terms">Akceptuje regulamin</string>
+    <string name="btn_submit">WYSLIJ ZGLOSZENIE</string>
+    <string name="error_name">Podaj imie i nazwisko</string>
+    <string name="error_email">Niepoprawny adres e-mail</string>
+    <string name="error_date">Wybierz date urodzenia</string>
+    <string name="error_course">Wybierz kurs z listy</string>
+    <string name="error_mode">Zaznacz tryb zajec</string>
+    <string name="confirm_title">Wyslac zgloszenie?</string>
+    <string name="confirm_message">Sprawdz dane przed wyslaniem.</string>
+
+
+    <string name="sent">Zgloszenie wyslane</string>
+    <string name="undo">Cofnij</string>
+
+    <string name="yes_short">tak</string>
+    <string name="no_short">nie</string>
+    <string-array name="courses">
+        <item>-- wybierz kurs --</item>
+        <item>Programowanie w Javie</item>
+        <item>Aplikacje mobilne</item>
+        <item>Bazy danych</item>
+        <item>Sieci komputerowe</item>
+    </string-array>
+
+    <string name="survey_header">Ankieta satysfakcji</string>
+    <string name="label_product">Produkt / usluga</string>
+    <string name="label_q1">Jak oceniasz jakosc?</string>
+    <string name="label_q2">Jak oceniasz obsluge?</string>
+    <string name="label_q3">Jak oceniasz cene?</string>
+    <string name="label_q4">Jak oceniasz dostepnosc?</string>
+    <string name="label_q5">Jak oceniasz ogolnie?</string>
+    <string name="label_comment">Komentarz</string>
+    <string name="hint_comment">Napisz co myslisz...</string>
+    <string name="label_recommend">Polecam innym</string>
+    <string name="publish_consent">Zgadzam sie na publikacje opinii</string>
+    <string name="btn_send_survey">WYSLIJ ANKIETE</string>
+    <string name="error_product">Wybierz produkt z listy</string>
+    <string name="error_comment">Wpisz komentarz</string>
+    <string name="error_consent">Musisz wyrazic zgode na publikacje</string>
+    <string name="survey_confirm_title">Wyslac ankiete?</string>
+    <string name="survey_confirm_message">Sprawdz odpowiedzi przed wyslaniem.</string>
+    <string name="survey_sent">Ankieta wyslana</string>
+    <string name="survey_summary_format">Produkt: %1$s\nJakosc: %2$d\nObsluga: %3$d\nCena: %4$d\nDostepnosc: %5$d\nOgolnie: %6$d\nKomentarz: %7$s\nPolecam: %8$s</string>
+    <string-array name="products">
+        <item>-- wybierz produkt --</item>
+        <item>Aplikacja mobilna</item>
+        <item>Kurs online</item>
+        <item>Wsparcie techniczne</item>
+        <item>Sklep internetowy</item>
+    </string-array>
+
+    <string name="survey_confirm_send">Wyslij</string>
+    <string name="survey_confirm_cancel">Anuluj</string>
+    <string name="survey_undo">Cofnij</string>
+
+    <string name="btn_clear_survey">Wyczysc formularz</string>
+    <string name="survey_clear_title">Czyszczenie formularza</string>
+    <string name="survey_clear_message">Czy na pewno chcesz wyczyscic wszystkie pola formularza?</string>
+    <string name="survey_clear_confirm">Wyczysc</string>
+    <string name="survey_clear_cancel">Anuluj</string>
+    <string name="survey_cleared">Formularz zostal wyczyszczony</string>
+
+    <string name="summary_header">Podsumowanie ankiety</string>
+    <string name="btn_confirm">POTWIERDŹ</string>
+    <string name="btn_edit">POPRAW</string>
+    <string name="btn_share">UDOSTĘPNIJ</string>
+
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+
+    <string name="summary_format">Produkt: %1$s\n\nOceny:\nPytanie 1: %2$d/10\nPytanie 2: %3$d/10\nPytanie 3: %4$d/10\nPytanie 4: %5$d/10\nPytanie 5: %6$d/10\n\nKomentarz: %7$s\n\nCzy polecasz produkt? %8$s\nZgoda na publikację: %9$s</string>
+
+    <string name="share_via">Udostępnij ankietę</string>
+    <string name="no_share_app">Brak aplikacji do udostępniania</string>
+
+    <string name="survey_confirmed">Ankieta potwierdzona! Numer: %1$s</string>
+    <string name="survey_cancelled">Zrezygnowano z potwierdzenia ankiety.</string>
+
+    <string name="about_header">O aplikacji</string>
+    <string name="about_description">Aplikacja służy do przeprowadzania ankiety satysfakcji. Umożliwia ocenę produktu, dodanie komentarza oraz przekazanie odpowiedzi do podsumowania.</string>
+    <string name="about_back">WRÓĆ</string>
+    <string name="btn_about">O APLIKACJI</string>
+    <string name="toolbar_survey_title">Ankieta</string>
+    <string name="toolbar_summary_title">Opinia: %1$s</string>
+</resources>

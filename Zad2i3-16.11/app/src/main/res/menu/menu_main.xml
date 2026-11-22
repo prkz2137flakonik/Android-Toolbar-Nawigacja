@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_about"
+        android:title="O aplikacji"
+        android:icon="@drawable/baseline_info_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear"
+        android:title="Wyczyść formularz"
+        android:icon="@drawable/baseline_delete_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Udostępnij"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="ifRoom" />
+
+</menu>
