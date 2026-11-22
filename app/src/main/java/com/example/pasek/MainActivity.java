@@ -5,15 +5,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText etName;
+    private View sectionForm, sectionSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +26,32 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         etName = findViewById(R.id.etName);
+        sectionForm = findViewById(R.id.sectionForm);
+        sectionSettings = findViewById(R.id.sectionSettings);
 
+        setUpBottomNavigation();
+    }
 
+    private void setUpBottomNavigation() {
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
+        bottomNav.setOnItemSelectedListener(item -> {
+            int id = item.getItemId();
+            if (id == R.id.nav_form) {
+                showSection(true);
+                return true;
+            } else if (id == R.id.nav_settings) {
+                showSection(false);
+                return true;
+            }
+            return false;
+        });
+    }
+
+    private void showSection(boolean form) {
+        sectionForm.setVisibility(form ? View.VISIBLE : View.GONE);
+        sectionSettings.setVisibility(form ? View.GONE : View.VISIBLE);
     }
 
     @Override
@@ -50,14 +77,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void clearForm() {
-        if (etName != null) {
-            etName.setText("");
-        }
+        etName.setText("");
         Toast.makeText(this, R.string.cleared, Toast.LENGTH_SHORT).show();
     }
 
     private void share() {
-        String text = etName != null ? etName.getText().toString().trim() : "";
+        String text = etName.getText().toString().trim();
         if (text.isEmpty()) {
             Toast.makeText(this, R.string.nothing_to_share, Toast.LENGTH_SHORT).show();
             return;
