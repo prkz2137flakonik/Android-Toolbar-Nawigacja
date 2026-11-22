@@ -23,4 +23,13 @@
         android:text="Tu bedzie formularz"
         android:textSize="18sp" />
 
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
 </LinearLayout>
