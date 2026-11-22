@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pasek</string>
+    <string name="title_about">O aplikacji</string>
+    <string name="action_share">Udostepnij</string>
+    <string name="action_clear">Wyczysc</string>
+    <string name="action_about">O aplikacji</string>
+    <string name="nav_form">Formularz</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="label_name">Imie i nazwisko</string>
+    <string name="hint_name">Jan Kowalski</string>
+    <string name="setting_notifications">Powiadomienia</string>
+    <string name="setting_dark">Tryb ciemny</string>
+    <string name="about_text">Aplikacja szkoleniowa.\nTechnik programista, klasa 5.</string>
+    <string name="cleared">Wyczyszczono</string>
+    <string name="share_via">Udostepnij przez</string>
+    <string name="error_no_app">Brak aplikacji do obslugi tej czynnosci</string>
+    <string name="nothing_to_share">Najpierw wpisz imie</string>
+</resources>
