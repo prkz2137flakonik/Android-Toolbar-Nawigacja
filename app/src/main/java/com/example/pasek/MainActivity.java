@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             clearForm();
             return true;
         } else if (id == R.id.action_about) {
-            Toast.makeText(this, R.string.action_about, Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, AboutActivity.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
